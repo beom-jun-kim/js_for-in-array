@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+</head>
+<body>
+
+    <script>
+
+        // var cashDiary = {
+        //     date:0610,
+        //     price:4100,
+        //     brand:"starbucks",
+        //     when:"morning",
+        //     into: {
+        //         branch: "동성로점",
+        //         isGood: true,
+        //         taste: true
+        //     }
+        // }
+        // console.log(cashDiary);
+        // console.log(cashDiary.date);
+        // console.log(cashDiary.price);
+
+        // // 객체의 value값 수정
+        // cashDiary.date = "0602";
+        // console.log(cashDiary.date);
+
+        // // 객체에 value값 추가
+        // cashDiary.OtherPrice = "500";
+
+        // // 객체에 value값 삭제
+        // delete cashDiary.OtherPrice;
+
+        // console.log('OtherPrice' in cashDiary);
+
+        // if('OtherPrice' in cashDiary){
+        //     console.log('너가 계산해')
+        // }
+
+        var goToAcademy = {
+            // 객체안의 함수는 메서드라고 부른다
+            cash: 1200,
+            // 파라미터
+            byBus: function(name){
+                console.log(`${name} 그럼 안녕!`);
+            },
+            bySubway: function(){
+                console.log('>>>>지하철 타기')
+            },
+            walk: function(){
+                console.log('>>>>걷기')
+            }
+        }
+
+        // console.log(goToAcademy);
+        // console.log(goToAcademy.chash);
+        // console.log(goToAcademy.byBus);
+        // // 인자
+        // console.log(goToAcademy.byBus("소정님 "));
+
+        // var consoleTest = {
+        //     log: function(msg){
+        //         console.log(msg);
+        //     }
+        // }
+        // consoleTest.log("KT를 사자");
+
+
+        
+        (function (){
+            console.log(">> 즉시 실행 함수")
+        })();
+
+    </script>
+
+
+
+</body>
+</html>
